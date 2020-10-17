@@ -7,6 +7,7 @@ dependencies:
   - pip
   - pyjwt
   - passlib
+  - uvicorn
   - fastapi
   - alembic         # for dataset, so conda installs deps not pip
   - sqlalchemy      # for dataset
