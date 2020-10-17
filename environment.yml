@@ -5,6 +5,8 @@ channels:
 dependencies:
   - python=3.8
   - pip
+  - pyjwt
+  - passlib
   - fastapi
   - alembic         # for dataset, so conda installs deps not pip
   - sqlalchemy      # for dataset
