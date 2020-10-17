@@ -1,0 +1,12 @@
+name: fastapi_uidtoken
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - fastapi
+  - alembic         # for dataset, so conda installs deps not pip
+  - sqlalchemy      # for dataset
+  - pip:
+    - dataset
