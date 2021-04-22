@@ -3,13 +3,18 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.9
   - pip
-  - pyjwt
   - passlib
-  - uvicorn
+  - loguru
   - fastapi
-  - alembic         # for dataset, so conda installs deps not pip
+  - starlette
+  - uvicorn
+  - pyjwt
+  - python-multipart
+  - alembic         # for dataset, so conda installs deps, not pip
   - sqlalchemy      # for dataset
   - pip:
     - dataset
+    - uvicorn-loguru-integration
+
